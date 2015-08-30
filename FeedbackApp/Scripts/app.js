@@ -1,5 +1,12 @@
 ﻿'use strict';
 
+
+
+var underscore = angular.module('underscore', []);
+underscore.factory('_', function () {
+    return window._; 
+});
+
 // Declares how the application should be bootstrapped. See: http://docs.angularjs.org/guide/module
 angular.module('app', ['ui.router', 'app.filters', 'app.services', 'app.directives', 'app.controllers'])
 
@@ -16,17 +23,6 @@ angular.module('app', ['ui.router', 'app.filters', 'app.services', 'app.directiv
                 templateUrl: '/views/index',
                 controller: 'HomeCtrl'
 
-            })
-            .state('about', {
-                url: '/about',
-                templateUrl: '/views/about',
-                controller: 'AboutCtrl'
-            })
-            .state('login', {
-                url: '/login',
-                layout: 'basic',
-                templateUrl: '/views/login',
-                controller: 'LoginCtrl'
             })
             .state('otherwise', {
                 url: '*path',

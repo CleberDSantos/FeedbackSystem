@@ -132,8 +132,16 @@
       <DependentUpon>app.less</DependentUpon>
     </Content>
     <Content Include="Content\app.less" />
+    <Content Include="Content\mdl\material.css" />
+    <Content Include="Content\mdl\material.min.css" />
+    <Content Include="Content\mdl\styles.css" />
+    <Content Include="Content\Smiles.css" />
+    <Content Include="Content\Smiles.png" />
     <Content Include="Content\variables.less" />
     <Content Include="Global.asax" />
+    <Content Include="Images\Cards.fw_r2_c2.png" />
+    <Content Include="Images\smile-excelente1.png" />
+    <Content Include="Images\smile-pessimo1.png" />
     <Content Include="Scripts\controllers.js" />
     <Content Include="Scripts\controllers.spec.js">
       <DependentUpon>controllers.js</DependentUpon>
@@ -146,10 +154,12 @@
     <Content Include="Scripts\filters.spec.js">
       <DependentUpon>filters.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\material.js" />
     <Content Include="Scripts\services.js" />
     <Content Include="Scripts\services.spec.js">
       <DependentUpon>services.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\underscore.js" />
     <Content Include="Scripts\vendor\angular-csp.css" />
     <Content Include="Scripts\vendor\angular-ui-router.js" />
     <Content Include="Scripts\vendor\angular-ui-router.min.js" />
@@ -489,12 +499,10 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\Login.cshtml" />
     <Content Include="Views\Index.cshtml" />
     <Content Include="Views\404.cshtml" />
     <Content Include="Views\_Layout.cshtml" />
     <Content Include="Views\_PageStart.cshtml" />
-    <Content Include="Views\About.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -515,7 +523,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
