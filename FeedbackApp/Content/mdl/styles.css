@@ -1,21 +1,4 @@
-﻿.mdl-demo .toc h4 {
-    font-size: 0.9rem;
-    margin-top: 0;
-}
-
-/*.mdl-demo .toc a {
-    color: #4DD0E1;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 28px;
-    display: block;
-}*/
-
-/*.mdl-demo .mdl-menu__container {
-    z-index: 99;
-}*/
-
-.questao {
+﻿.questao {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 300;
@@ -50,6 +33,13 @@
         margin: 0;
         position: relative;
     }
+
+
+    .sliderContainer li:first-child{
+        width:30px; 
+        height:30px;
+    }
+
 
         .sliderContainer li p {
             width: 500px;
