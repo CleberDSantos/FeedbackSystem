@@ -90,11 +90,65 @@ angular.module('app.controllers', ['underscore'])
 
         };
 
-        $scope.questoes.push(questao);
 
+        var questao2 = {
+            imagem: "lideranca.png",
+            slider: 50,
+            titulo: "Liderança",
+            conteudo: "Vendo o Profissional que sou hoje, se fosse nomeado como seu líder, você se sentiria confortável? Mostre-me qual seria seu sentimento?",
+            smileBom: "",
+            smileMau: ""
+
+        };
+
+
+        var questao3 = {
+            imagem: "confianca-tecnica.png",
+            slider: 50,
+            titulo: "Confiança técnica",
+            conteudo: "Digamos que fechamos um novo projeto .NET extremamente estratégico, e você foi escolhido para montar a equipe de dois Desenvolvedores. Qual seria a probabilidade de você me escolher?",
+            smileBom: "",
+            smileMau: ""
+
+        };
+
+
+        var questao4 = {
+            imagem: "senso-urgencia.png",
+            slider: 50,
+            titulo: "Senso de urgência",
+            conteudo: "Digamos que durante uma reunião, surgiu uma atividade que precisa ser resolvida com extrema urgência e um atraso poderia afetar diretamente em nossa remuneração variável. Essa atividade foi direcionada para eu resolver. Em sua opinião, qual seria a chance dessa tarefa atrasar?",
+            smileBom: "",
+            smileMau: ""
+
+        };
+
+
+        var questao5 = {
+            imagem: "mentoria.png",
+            slider: 50,
+            titulo: "Mentoria",
+            conteudo: "De dois meses até os dias atuais, eu demonstrei algo para você que agregou valor em sua carreira profissional? Como se sente quanto a isso?",
+            smileBom: "",
+            smileMau: ""
+
+        };
+
+
+        var questao6 = {
+            imagem: "qualidade.png",
+            slider: 50,
+            titulo: "Qualidade",
+            conteudo: "Busquei como meta reduzir quantidade de erros e melhorar minha qualidade de código. Qual sua reação quando ler um código desenvolvido por mim recentemente?",
+            smileBom: "",
+            smileMau: ""
+
+        };
+
+
+        $scope.questoes.push(questao, questao2, questao3, questao4, questao5, questao6);
 
         $scope.ProcessarSmiles = function (questao) {
-
             var valor = parseInt(questao.slider);
 
 

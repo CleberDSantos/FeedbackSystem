@@ -1,37 +1,29 @@
 ﻿
-<div ng-controller="FeedbackController as ctrl">
-    <section ng-repeat="questao in questoes" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-        <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-            <img ng-src="~/Images/{{questao.imagem}}" />
-        </header>
-        <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-            <div class="mdl-card__supporting-text questao">
-                <h4>{{ questao.titulo }}</h4>
-                {{ questao.conteudo}}
-            </div>
-            <div class="mdl-card__actions sliderContainer">
-                <ul>
-                    <li>
-                        <div style="width:30px; height:30px;" >
-                            <div class="Smiles" ng-class="'Smiles_fw_'+questao.smileMau"></div>
 
-                        </div>
-                    <li>
-                        <p>
-                            <input ng-change="ProcessarSmiles(questao)" ng-model="questao.slider" class="mdl-slider mdl-js-slider slider" type="range" min="0" max="100" />
-                        </p>
-                    </li>
-                    <li>
-                        <div style="width:30px; height:30px;"  >
-
-                            <div class="Smiles" ng-class="'Smiles_fw_'+questao.smileBom"></div>
-
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
+<div class="container">
+    <img class="imgTopo" src="~/Images/FeedBack.fw_r2_c2.png" />
+    <img class="imgTopo left" src="~/Images/astronauta.png" />
+    <img class="imgTopo right" src="~/Images/onibus.png" />
+    <section class="head">
+       
+        <h4>Me ajude a decolar em minha carreira</h4>
+        <p>Sua participação é muito importante, pois meu foco é coletar informações para que eu possa evoluir e ajudar a melhorar nosso cotidiano e manter o crescimento do nosso time.</p>
     </section>
+    
+    <cards-pergunta></cards-pergunta>
+
+    <button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent btnEnviarFeedback">
+        ENVIAR FEEDBACK
+    </button>
+
+    <footer>
+        <img class="right" src="~/Images/planeta.png" />
+        <span>Desenvolvido por José Cléber dos Santos Ferreira</span>
+        <div class="barraFooter"></div>
+    </footer>
+
+</div>
+    
+
 
     <pre>{{ questoes | json }}</pre>
-</div>

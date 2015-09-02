@@ -1,0 +1,32 @@
+﻿<section ng-repeat="questao in questoes" class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+        <img ng-src="/Images/{{questao.imagem}}" />
+    </header>
+    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+        <div class="mdl-card__supporting-text questao">
+            <h4>{{ questao.titulo }}</h4>
+            {{ questao.conteudo}}
+        </div>
+        <div class="mdl-card__actions sliderContainer">
+            <ul>
+                <li>
+                    <div style="width:30px; height:30px;">
+                        <div class="Smiles" ng-class="'Smiles_fw_'+questao.smileMau"></div>
+
+                    </div>
+                <li>
+                    <p>
+                        <input ng-change="ProcessarSmiles(questao)" ng-model="questao.slider" class="mdl-slider mdl-js-slider slider" type="range" min="0" max="100" />
+                    </p>
+                </li>
+                <li>
+                    <div style="width:30px; height:30px;">
+
+                        <div class="Smiles" ng-class="'Smiles_fw_'+questao.smileBom"></div>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
