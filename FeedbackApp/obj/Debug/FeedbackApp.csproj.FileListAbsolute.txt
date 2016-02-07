@@ -37,3 +37,42 @@ C:\Users\JoséCléber\Documents\Visual Studio 2013\Projects\Feedback\FeedbackApp
 C:\Users\JoséCléber\Documents\Visual Studio 2013\Projects\Feedback\FeedbackApp\obj\Debug\FeedbackApp.csprojResolveAssemblyReference.cache
 C:\Users\JoséCléber\Documents\Visual Studio 2013\Projects\Feedback\FeedbackApp\obj\Debug\App.FeedbackApp.dll
 C:\Users\JoséCléber\Documents\Visual Studio 2013\Projects\Feedback\FeedbackApp\obj\Debug\App.FeedbackApp.pdb
+C:\Git\FeedbackSystem\FeedbackApp\bin\App.FeedbackApp.dll.config
+C:\Git\FeedbackSystem\FeedbackApp\bin\App.FeedbackApp.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\App.FeedbackApp.pdb
+C:\Git\FeedbackSystem\FeedbackApp\bin\Antlr3.Runtime.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Owin.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Owin.Security.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Newtonsoft.Json.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Owin.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.Helpers.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.Optimization.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.Razor.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.WebPages.Deployment.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.WebPages.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.WebPages.Razor.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\WebGrease.dll
+C:\Git\FeedbackSystem\FeedbackApp\bin\Antlr3.Runtime.pdb
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Owin.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Owin.Security.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\Newtonsoft.Json.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.Helpers.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.Optimization.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.Razor.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.WebPages.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.WebPages.Deployment.xml
+C:\Git\FeedbackSystem\FeedbackApp\bin\System.Web.WebPages.Razor.xml
+C:\Git\FeedbackSystem\FeedbackApp\obj\Debug\FeedbackApp.csprojResolveAssemblyReference.cache
+C:\Git\FeedbackSystem\FeedbackApp\obj\Debug\App.FeedbackApp.dll
+C:\Git\FeedbackSystem\FeedbackApp\obj\Debug\App.FeedbackApp.pdb
