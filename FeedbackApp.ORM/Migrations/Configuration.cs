@@ -1,18 +1,18 @@
-namespace Feedback.ORM.Migrations
+namespace FeedbackApp.Infra.Data.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Feedback.ORM.Context>
+    internal sealed class Configuration : DbMigrationsConfiguration<Contexto>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Feedback.ORM.Context context)
+        protected override void Seed(Contexto context)
         {
             //  This method will be called after migrating to the latest version.
 

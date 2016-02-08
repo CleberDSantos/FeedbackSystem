@@ -9,6 +9,6 @@ namespace Feedback.Domain.Response
 
         public string Evidencie { get; set; }
 
-        public Question Question { get; set; }
+        public virtual Question Question { get; set; }
     }
 }
