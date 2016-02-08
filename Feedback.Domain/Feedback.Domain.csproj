@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form.cs" />
+    <Compile Include="Response\FormResponse.cs" />
     <Compile Include="Question.cs" />
+    <Compile Include="Response\QuestionResponse.cs" />
     <Compile Include="Virtue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

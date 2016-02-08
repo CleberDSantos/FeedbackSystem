@@ -10,12 +10,13 @@ namespace Feedback.ORM
         {
 
         }
-
      
         public DbSet<Virtue> Virtues { get; set; }
 
         public DbSet<Question> Questions { get; set; }
 
+        public DbSet<Form> Forms { get; set; }
 
+        public DbSet<QuestionForm> QuestionsForms { get; set; }
     }
 }
