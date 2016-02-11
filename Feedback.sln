@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedback.Domain", "Feedback
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedback.ORM", "Feedback.ORM\Feedback.ORM.csproj", "{B4A595BC-5C46-4D6B-B97F-0CB5BF47130C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F7ADB8EB-A4C6-4CA1-B8E0-7F7217B239B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedback.WebApi", "Feedback.WebApi\Feedback.WebApi.csproj", "{FC155EA8-36E2-4190-852C-BA016BFE436B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{B4A595BC-5C46-4D6B-B97F-0CB5BF47130C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4A595BC-5C46-4D6B-B97F-0CB5BF47130C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4A595BC-5C46-4D6B-B97F-0CB5BF47130C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC155EA8-36E2-4190-852C-BA016BFE436B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC155EA8-36E2-4190-852C-BA016BFE436B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC155EA8-36E2-4190-852C-BA016BFE436B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC155EA8-36E2-4190-852C-BA016BFE436B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +46,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E5B1D06F-8B10-47BE-90DB-54BF69F1D9F6} = {757A0283-A327-4650-86C9-85E67D7690B3}
 		{B4A595BC-5C46-4D6B-B97F-0CB5BF47130C} = {1449D904-A52F-4135-A096-3E0AF21A620B}
+		{FC155EA8-36E2-4190-852C-BA016BFE436B} = {F7ADB8EB-A4C6-4CA1-B8E0-7F7217B239B0}
 	EndGlobalSection
 EndGlobal
